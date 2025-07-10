@@ -1,0 +1,52 @@
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin-bottom: 0px;
+}
+
+#nest-count {
+  padding: 0;
+  margin-top: 2px;   /* small gap from title */
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center; /* center aligns to match title */
+}
+
+#map {
+  height: 90vh;
+  width: 100%;
+}
+
+.legend {
+  background: white;
+  padding: 8px;
+  font-size: 13px;
+  line-height: 18px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+
+.legend i {
+  vertical-align: middle;
+  margin-right: 6px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #000;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.leaflet-marker-icon, .leaflet-pane .leaflet-popup-pane {
+  pointer-events: auto !important;
+}
